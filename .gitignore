@@ -1,0 +1,45 @@
+# Visual Studio & .NET Build Artifacts
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# VS Code Settings
+.vscode/
+
+# Ignore IIS & Debugging Files
+.env
+.DS_Store
+.vs/
+appsettings.json
+appsettings.*.json  # Excludes all environment-specific settings files
+secrets.json
+launchSettings.json
+
+# Node Modules (if any frontend dependencies exist)
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Dependencies Installed via NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+
+# Publish & Deployment Files
+publish/
+wwwroot/
+*.publishsettings
+*.sql
+*.bak
+
+# JetBrains Rider
+.idea/
+
+# ReSharper
+_ReSharper*
